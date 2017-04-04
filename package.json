@@ -36,7 +36,8 @@
     "should": "^11.2.1",
     "rimraf": "^2.6.1",
     "enfspatch-promise":"^1.0",
-    "enfsmkdirp":"^1.0"
+    "enfsmkdirp":"^1.0",
+    "semver": "^5.3.0"
   },
   "keywords": [
     "copy",

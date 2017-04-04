@@ -16,6 +16,7 @@ const enFsCopy = require("../");
 const utimes = require("./utimes");
 const copy = enFsCopy.copyP;
 const cwd = process.cwd();
+const semver = require("semver");
 
 describe("enFsCopyAsyncPreserveTime", function () {
     const tmpPath = nodePath.join(nodeOs.tmpdir(), "enfscopyasynctime");
@@ -62,7 +63,7 @@ describe("enFsCopyAsyncPreserveTime", function () {
                     statSrc = statSrc_;
                     return enFs.statP(nodePath.join(dst, FILE));
                 }).then(function (statDst) {
-                    if (isWindows) {
+                    if (isWindows && semver.satisfies(process.version,"<7")) {
                         statDst.mtime.getTime().should.be.equal(utimes.timeRemoveMillis(statSrc.mtime.getTime()));
                         statDst.atime.getTime().should.be.equal(utimes.timeRemoveMillis(statSrc.atime.getTime()));
                     } else {
