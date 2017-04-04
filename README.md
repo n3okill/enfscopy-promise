@@ -1,6 +1,6 @@
 [![Build Status](https://travis-ci.org/n3okill/enfscopy-promise.svg)](https://travis-ci.org/n3okill/enfscopy-promise)
-[![Build status](https://ci.appveyor.com/api/projects/status/wtrnfoek893y2x4p?svg=true)](https://ci.appveyor.com/project/n3okill/enfscopy-promise)
-[![Codacy Badge](https://api.codacy.com/project/badge/grade/478a5bf200e44bec8dbb6d6ed5e96dad)](https://www.codacy.com/app/n3okill/enfscopy-promise)
+[![AppVeyor status](https://ci.appveyor.com/api/projects/status/7j3pm4rhdvudcptr?svg=true)](https://ci.appveyor.com/project/n3okill/enfscopy-promise)
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/3394b2e345d44960ad52d7df07a26d0f)](https://www.codacy.com/app/n3okill/enfscopy-promise)
 [![Donate](https://www.paypalobjects.com/en_US/i/btn/btn_donate_SM.gif)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=64PYTCDH5UNZ6)
 
 [![NPM](https://nodei.co/npm/enfscopy-promise.png)](https://nodei.co/npm/enfscopy-promise/)
