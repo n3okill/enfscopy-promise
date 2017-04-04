@@ -1,6 +1,6 @@
 {
   "name": "enfscopy-promise",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "Copy files, directories and links in node cp -R with promises",
   "license": "CC-BY-4.0",
   "author": {
@@ -27,7 +27,7 @@
     "appveyor": "node ./node_modules/mocha/bin/mocha --reporter spec --require should test/*.js"
   },
   "dependencies": {
-    "enfscopy":"^1.0"
+    "enfscopy": "^1.0"
   },
   "devDependencies": {
     "eslint": "^3.19.0",
@@ -35,8 +35,8 @@
     "mocha": "^3.2.0",
     "should": "^11.2.1",
     "rimraf": "^2.6.1",
-    "enfspatch-promise":"^1.0",
-    "enfsmkdirp":"^1.0",
+    "enfspatch-promise": "^1.0",
+    "enfsmkdirp": "^1.0",
     "semver": "^5.3.0"
   },
   "keywords": [
